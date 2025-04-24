@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecionando...</title>
+    <script type="text/javascript">
+      // URL base para onde os visitantes serão redirecionados
+      const baseUrl = "https://u1m.com.br";
+
+      // Captura o caminho da URL atual (após "https://gean.me/")
+      const caminho = window.location.pathname;
+
+      // Redireciona o navegador para o URL correspondente
+      window.location.href = `${baseUrl}${caminho}`;
+    </script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+      }
+      h1 {
+        font-size: 24px;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Redirecionando... Aguarde um momento!</h1>
+  </body>
+</html>
